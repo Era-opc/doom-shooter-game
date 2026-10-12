@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hell Corridor</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="hud">
+      <div class="topbar">
+        <div class="brand">HELL CORRIDOR</div>
+        <div class="stats">
+          <span>HP <b id="hp">100</b></span>
+          <span>LVL <b id="level">1</b></span>
+          <span>KILLS <b id="kills">0</b></span>
+          <span>DIFF <b id="diff">1.0x</b></span>
+        </div>
+      </div>
+    </div>
+
+    <canvas id="game" width="960" height="540"></canvas>
+    <div id="banner" class="banner hidden"></div>
+
+    <script src="game.js"></script>
+  </body>
+</html>
